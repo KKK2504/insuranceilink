@@ -1,0 +1,48 @@
+header {
+    background-color: #333; /* Dark gray background */
+    padding: 20px 0; /* Increased padding for better spacing */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img1 {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+.img2 {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 20px; /* Adjusted margin */
+}
+
+
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #ccc; /* Light gray text color */
+    text-decoration: none;
+    font-size: 18px; /* Decreased font size */
+    margin-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: white; /* White text color on hover */
+    background-color: #555; /* Darker background color on hover */
+    cursor: pointer;
+}
